@@ -1,1 +1,8 @@
 This is my first time creating a file on remote repository and pulling it on a local repository
+
+
+This is to test git fetch , generally when we pull it updates and merge
+
+but if we use ftech it downloads the chnages but it will not merge to local repo
+
+benefit is we can compare the diff between remote and local repo
