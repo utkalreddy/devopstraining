@@ -1,1 +1,40 @@
 "this is my first time using git, creating a file and cloning to master repo" 
+C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining>git branch -a
+* master
+  testbranch
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining>git checkout testbranch
+Switched to branch 'testbranch'
+
+C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining>git branch -a
+  master
+* testbranch
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining>dir
+ Volume in drive C is OS
+ Volume Serial Number is E629-E24A
+
+ Directory of C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining
+
+11/10/2020  05:23 PM    <DIR>          .
+11/10/2020  05:23 PM    <DIR>          ..
+11/10/2020  03:08 PM                80 file_1.txt
+11/10/2020  05:23 PM               343 file_2_pull.txt
+11/10/2020  03:19 PM                27 newfile.txt
+               3 File(s)            450 bytes
+               2 Dir(s)  1,681,694,871,552 bytes free
+
+C:\Users\utkal\OneDrive\Documents\devopstraining\devopstraining>
+
+changes will be visible only in branch not on master repo
+
+
+
+one more change to understand git branch because earlier I also replaced the modified file under master
+
+
+This is to check git restore
